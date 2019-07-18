@@ -1,0 +1,46 @@
+﻿<Window x:Class="WPFTask1._0.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTask1._0"
+        mc:Ignorable="d"
+        Title="Employee Database" Height="450" Width="1030.15">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="201*"/>
+            <ColumnDefinition Width="310*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="Search:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontFamily="Segoe UI" RenderTransformOrigin="0.625,0.423" Height="26" Width="48"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="63,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="238" FontFamily="Segoe UI"/>
+        <DataGrid HorizontalAlignment="Left" Height="359" Margin="10,50,0,0" VerticalAlignment="Top" Width="376"/>
+        <Button Content="Enter" HorizontalAlignment="Left" Margin="311,10,0,0" VerticalAlignment="Top" Width="75" FontFamily="Segoe UI" Height="23"/>
+        <Label Content="ID No.:" Grid.Column="1" HorizontalAlignment="Left" Margin="3,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.543,-0.423" Height="26" Width="46"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="77,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="117"/>
+        <Label Content="Last Name:" Grid.Column="1" HorizontalAlignment="Left" Margin="3,41,0,0" VerticalAlignment="Top" Height="26" Width="69"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="77,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="117"/>
+        <Label Content="First Name:" Grid.Column="1" HorizontalAlignment="Left" Margin="203,41,0,0" VerticalAlignment="Top" Height="26" Width="70"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="278,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="117
+                 "/>
+        <Label Content="Middle Name:" Grid.Column="1" HorizontalAlignment="Left" Margin="408,40,0,0" VerticalAlignment="Top" Height="26" Width="85"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="493,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="117
+                 "/>
+        <Label Content="Career Level:" Grid.Column="1" HorizontalAlignment="Left" Margin="2,68,0,0" VerticalAlignment="Top" Height="26" Width="77"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="87,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+        <Label Content="Gender:" Grid.Column="1" HorizontalAlignment="Left" Margin="208,66,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.543,-0.423" Height="26" Width="51"/>
+        <ComboBox Grid.Column="1" HorizontalAlignment="Left" Margin="278,69,0,0" VerticalAlignment="Top" Width="117" Height="22">
+            <ComboBoxItem Content="Female"/>
+            <ComboBoxItem Content="Male"/>
+            <ComboBoxItem Content="Undecided"/>
+        </ComboBox>
+        <Label Content="Birthday:" Grid.Column="1" HorizontalAlignment="Left" Margin="408,68,0,0" VerticalAlignment="Top" Height="26" Width="85"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="493,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="117                  "/>
+        <Label Content="Address:" Grid.Column="1" HorizontalAlignment="Left" Margin="3,99,0,0" VerticalAlignment="Top" Height="26" Width="77"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="77,99,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="533"/>
+        <Label Content="Cellphone:" Grid.Column="1" HorizontalAlignment="Left" Margin="3,130,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.543,-0.423" Height="26" Width="69"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="77,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="117"/>
+        <Label Content="Cellphone:" Grid.Column="1" HorizontalAlignment="Left" Margin="204,130,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.543,-0.423" Height="26" Width="69"/>
+        <TextBox Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="278,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="117"/>
+
+    </Grid>
+</Window>
